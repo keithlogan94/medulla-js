@@ -1,0 +1,28 @@
+{
+  "name": "medulla-controller-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "prettier:check": "npx prettier --check src",
+    "prettier": "npx prettier --write src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "eslint": "^8.17.0",
+    "eslint-config-google": "^0.14.0",
+    "prettier": "2.7.0"
+  },
+  "dependencies": {
+    "@kubernetes/client-node": "^0.16.3",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  }
+}
