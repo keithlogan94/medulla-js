@@ -6,7 +6,8 @@
   "scripts": {
     "build": "babel src -d dist",
     "prettier:check": "npx prettier --check src",
-    "prettier": "npx prettier --write src"
+    "prettier": "npx prettier --write src",
+    "eslint": "npx eslint src --fix"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +24,7 @@
     "@kubernetes/client-node": "^0.16.3",
     "axios": "^0.27.2",
     "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
     "express": "^4.18.1"
   }
 }

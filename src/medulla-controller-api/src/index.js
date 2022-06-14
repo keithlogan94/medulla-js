@@ -1,1 +1,1 @@
-console.log("starting medulla controller api");
+console.log('starting medulla controller api');
